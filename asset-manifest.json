@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/stripetec/static/css/main.694973bd.css",
+    "main.js": "/stripetec/static/js/main.1e668542.js",
+    "static/media/it-relax.jpg": "/stripetec/static/media/it-relax.c2fc6ee00a7d94d77ee5.jpg",
+    "static/media/net.jpg": "/stripetec/static/media/net.1606744ac10415d81ed3.jpg",
+    "static/media/lapy.jpg": "/stripetec/static/media/lapy.122a37ef41c1b408ccc5.jpg",
+    "static/media/digital.jpg": "/stripetec/static/media/digital.c20bd75ff2ee144618fe.jpg",
+    "static/media/lg.jpg": "/stripetec/static/media/lg.c510fc261dcfcfabb36c.jpg",
+    "static/media/banners-bg.jpg": "/stripetec/static/media/banners-bg.2643f41b4f6c26a9fc4b.jpg",
+    "static/media/review-bg.jpg": "/stripetec/static/media/review-bg.a39f50e57b3619870c76.jpg",
+    "static/media/server.jpg": "/stripetec/static/media/server.f9c25f9964792feab820.jpg",
+    "static/media/webapp2.jpg": "/stripetec/static/media/webapp2.0c7a8def9e6c170abaf4.jpg",
+    "static/media/data.jpg": "/stripetec/static/media/data.680d6b02de6907f52cf6.jpg",
+    "static/media/social.jpg": "/stripetec/static/media/social.4bb984c70b84abd85d31.jpg",
+    "static/media/network.jpg": "/stripetec/static/media/network.fc6c1a0aeb370b3d6dff.jpg",
+    "static/media/brand.jpg": "/stripetec/static/media/brand.64435fd5f6eea31a42dc.jpg",
+    "static/media/server.png": "/stripetec/static/media/server.68a99a97aca0176068dc.png",
+    "static/media/web-design2.png": "/stripetec/static/media/web-design2.c67d5e830133582ceddd.png",
+    "static/media/logo4.jpg": "/stripetec/static/media/logo4.58950c5f357230f92dcf.jpg",
+    "index.html": "/stripetec/index.html",
+    "main.694973bd.css.map": "/stripetec/static/css/main.694973bd.css.map",
+    "main.1e668542.js.map": "/stripetec/static/js/main.1e668542.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.694973bd.css",
+    "static/js/main.1e668542.js"
+  ]
+}
