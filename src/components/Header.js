@@ -2,8 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-scroll";
 import { Link as Li } from "react-router-dom";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import { Nav, Navbar, NavLink as Nlink } from "react-bootstrap";
-
+import { Container, Nav, Navbar, NavLink as Nlink } from "react-bootstrap";
 
 import "./Header.css";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
@@ -70,78 +69,70 @@ const Header = () => {
       </div>
 
       <header>
-        <div className="container">
-          <Navbar collapseOnSelect expand="lg" bg="transparent">
-            <div className="container-fluid" >
-              <Li className="navbar-brand" to={"/"}>
-                {" "}
-                <h2 className="logo">Stripe-tech</h2>{" "}
-              </Li>
+        <Navbar collapseOnSelect expand="lg" bg="transparent">
+          <Container >
+            <Li className="navbar-brand" to={"/"}>
+              {" "}
+              <h2 className="logo">Stripe-tech</h2>{" "}
+            </Li>
 
-              <NavbarToggle />
-              <NavbarCollapse>
-                <Nav>
-                  {/* <div
-                    className="collapse navbar-collapse"
-                    id="navbarSupportedContent"
-                  > */}
-                    <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+            <NavbarToggle />
+            <NavbarCollapse>
+              <Nav>
+                <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li className="nav-item">
+                    <Li to="/" className="nav-link" href="#">
+                      Home
+                    </Li>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      to="about"
+                      smooth={true}
+                      offset={50}
+                      duration={50}
+                      className="nav-link"
+                      href="#"
+                    >
+                      ABOUT US
+                    </Link>
+                  </li>
+                  <li className="nav-item">
+                    <Link
+                      to="services"
+                      smooth={true}
+                      offset={50}
+                      duration={50}
+                      className="nav-link"
+                      href="#"
+                    >
+                      SERVICES
+                    </Link>
+                  </li>
 
-                      <Nlink className="nav-item">
-                        <Li to="/" className="nav-link" href="#">
-                          Home
-                        </Li>
-                      </Nlink>
-                      <Nlink className="nav-item">
-                        <Link
-                          to="about"
-                          smooth={true}
-                          offset={50}
-                          duration={50}
-                          className="nav-link"
-                          href="#"
-                        >
-                          ABOUT US
-                        </Link>
-                      </Nlink>
-                      <Nlink className="nav-item">
-                        <Link
-                          to="services"
-                          smooth={true}
-                          offset={50}
-                          duration={50}
-                          className="nav-link"
-                          href="#"
-                        >
-                          SERVICES
-                        </Link>
-                      </Nlink>
+                  <li className="nav-item">
+                    <Li to="/blog" className="nav-link">
+                      BLOG
+                    </Li>
+                  </li>
 
-                      <Nlink className="nav-item">
-                        <Li to="/blog" className="nav-link">
-                          BLOG
-                        </Li>
-                      </Nlink>
-
-                      <Nlink className="nav-item">
-                        <Link
-                          to="contact"
-                          smooth={true}
-                          offset={50}
-                          duration={50}
-                          className="nav-link"
-                          href="/"
-                        >
-                          CONTACT
-                        </Link>
-                      </Nlink>
-                    </ul>
-                  {/* </div> */}
-                </Nav>
-              </NavbarCollapse>
-            </div>
-          </Navbar>
-        </div>
+                  <li className="nav-item">
+                    <Link
+                      to="contact"
+                      smooth={true}
+                      offset={50}
+                      duration={50}
+                      className="nav-link"
+                      href="/"
+                    >
+                      CONTACT
+                    </Link>
+                  </li>
+                </ul>
+              </Nav>
+            </NavbarCollapse>
+          </Container>
+        </Navbar>
       </header>
     </>
   );
