@@ -2,7 +2,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Link } from "react-scroll";
 import { Link as Li } from "react-router-dom";
 import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import { Container, Nav, Navbar, NavLink as Nlink } from "react-bootstrap";
+import { Container, Nav, Navbar} from "react-bootstrap";
 
 import "./Header.css";
 import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
