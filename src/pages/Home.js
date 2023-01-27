@@ -5,12 +5,17 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 import Logos from "../components/Logos";
 import Services from "../components/Services";
-
+import { useAnalytics } from "react-analytics";
+import React, { useEffect } from "react";
 
 const Home = () => {
+  const analytics = useAnalytics();
+  useEffect(() => {
+    analytics.page();
+  }, []);
+
   return (
-    <>     
-      
+    <>
       <Header />
       <Banner />
       <Features />

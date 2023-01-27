@@ -2,8 +2,14 @@ import { Link } from "react-router-dom";
 import BlogHeader from "../components/BlogHeader";
 import "./Article.css";
 import Socials from "../components/Socials";
+import React, { useEffect } from 'react';
+import { useAnalytics } from 'react-analytics';
 
 const First = () => {
+  const analytics = useAnalytics();
+  useEffect(() => {
+    analytics.page();
+  }, []);
   return (
     <div className="div">
       <BlogHeader />
