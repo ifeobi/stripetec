@@ -5,7 +5,7 @@ import App from "./App";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { HashRouter } from "react-router-dom";
 
-window.dataLayer = window.dataLayer || [];
+let dataLayer = window.dataLayer || [];
 function gtag() {
   dataLayer.push(arguments);
 }
