@@ -7,7 +7,11 @@ import { HashRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <HashRouter>
+  <HashRouter
+    onChange={(location) => {
+      gtag("config", "G-CVYEN7LLNJ", { page_path: location.pathname });
+    }}
+  >
     <App />
   </HashRouter>
 );
