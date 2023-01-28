@@ -2,8 +2,15 @@ import { Link } from "react-router-dom";
 import BlogHeader from "../components/BlogHeader";
 import "./Article.css";
 import Socials from "../components/Socials";
+import Socials from "../components/Socials";
+import React, { useEffect } from "react";
 
 const Second = () => {
+  const analytics = useAnalytics();
+  useEffect(() => {
+    analytics.page();
+  }, []);
+
   return (
     <div className="div">
       <BlogHeader />
@@ -41,7 +48,6 @@ const Second = () => {
             reach potential customers where they are spending the majority of
             their time online, and with the right strategies you can achieve
             more conversions and drive more sales.
-            
             <p className="post-text">
               Digital marketing also allows for greater targeting and
               personalization. With tools like Google Analytics and Facebook
@@ -65,7 +71,6 @@ const Second = () => {
               Without a strong digital presence, your business may struggle to
               compete in today's digital landscape.
             </p>
-          
           </p>
         </section>
 

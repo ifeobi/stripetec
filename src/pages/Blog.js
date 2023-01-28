@@ -1,8 +1,14 @@
 import { Link as Li } from "react-router-dom";
 import "./Blog.css";
 import BlogHeader from "../components/BlogHeader";
+import { useAnalytics } from "react-analytics";
+import React, { useEffect } from "react";
 
 const Blog = () => {
+  const analytics = useAnalytics();
+  useEffect(() => {
+    analytics.page();
+  }, []);
   return (
     <>
       <BlogHeader />

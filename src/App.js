@@ -6,7 +6,10 @@ import Second from "./pages/Second";
 import Third from "./pages/Third";
 import ScrollToTop from "react-scroll-to-top";
 
+
 function App() {
+  
+
   return (
     <>
       <ScrollToTop smooth top="1000" style={{ bottom: "50%" }} />
