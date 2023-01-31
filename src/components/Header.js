@@ -73,7 +73,7 @@ const Header = () => {
           <Container >
             <Li className="navbar-brand" to={"/"}>
               {" "}
-              <h2 className="logo">Stripe-tech</h2>{" "}
+              <h2 className="logo">Stripe-tec</h2>{" "}
             </Li>
 
             <NavbarToggle />

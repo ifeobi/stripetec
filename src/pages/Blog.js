@@ -12,7 +12,7 @@ const Blog = () => {
           <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
               <Li class="navbar-brand" to={"/"}>
-                <h2 className="logo">Stripe-tech</h2>
+                <h2 className="logo">Stripe-tec</h2>
               </Li>
             </div>
           </nav>

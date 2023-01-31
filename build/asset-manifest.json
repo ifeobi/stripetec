@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6c25517c.css",
+    "main.js": "/static/js/main.3429fcf7.js",
+    "static/media/it-relax.jpg": "/static/media/it-relax.c2fc6ee00a7d94d77ee5.jpg",
+    "static/media/net.jpg": "/static/media/net.1606744ac10415d81ed3.jpg",
+    "static/media/lapy.jpg": "/static/media/lapy.122a37ef41c1b408ccc5.jpg",
+    "static/media/digital.jpg": "/static/media/digital.c20bd75ff2ee144618fe.jpg",
+    "static/media/lg.jpg": "/static/media/lg.c510fc261dcfcfabb36c.jpg",
+    "static/media/banners-bg.jpg": "/static/media/banners-bg.2643f41b4f6c26a9fc4b.jpg",
+    "static/media/review-bg.jpg": "/static/media/review-bg.a39f50e57b3619870c76.jpg",
+    "static/media/server.jpg": "/static/media/server.f9c25f9964792feab820.jpg",
+    "static/media/webapp2.jpg": "/static/media/webapp2.0c7a8def9e6c170abaf4.jpg",
+    "static/media/data.jpg": "/static/media/data.680d6b02de6907f52cf6.jpg",
+    "static/media/social.jpg": "/static/media/social.4bb984c70b84abd85d31.jpg",
+    "static/media/network.jpg": "/static/media/network.fc6c1a0aeb370b3d6dff.jpg",
+    "static/media/brand.jpg": "/static/media/brand.64435fd5f6eea31a42dc.jpg",
+    "static/media/server.png": "/static/media/server.68a99a97aca0176068dc.png",
+    "static/media/web-design2.png": "/static/media/web-design2.c67d5e830133582ceddd.png",
+    "static/media/logo4.jpg": "/static/media/logo4.58950c5f357230f92dcf.jpg",
+    "index.html": "/index.html",
+    "main.6c25517c.css.map": "/static/css/main.6c25517c.css.map",
+    "main.3429fcf7.js.map": "/static/js/main.3429fcf7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6c25517c.css",
+    "static/js/main.3429fcf7.js"
+  ]
+}
